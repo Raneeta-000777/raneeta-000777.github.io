@@ -2,9 +2,9 @@ body {
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;
     color: #ffffff;
-    background: linear-gradient(135deg, #1a1a1d, #3a0ca3, #7209b7, #b5179e);
-    background-size: 400% 400%;
-    animation: gradientShift 12s ease infinite;
+    background: url('background.jpg.JPG') no-repeat center center fixed;
+background-size: cover;
+
 }
 
 @keyframes gradientShift {
