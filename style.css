@@ -12,12 +12,13 @@ body {
     max-width: 780px;
     margin: 60px auto;
     padding: 35px 40px;
-    background: rgba(0, 0, 0, 0.45);
-    border-radius: 25px;
-    box-shadow: 0 0 30px rgba(0,0,0,0.45);
-    backdrop-filter: blur(10px);
+    background: none;      /* removes blurred box */
+    border-radius: 0;
+    box-shadow: none;
+    backdrop-filter: none; /* removes glass blur */
     text-align: center;
 }
+
 
 /* Navigation menu */
 nav ul {
