@@ -68,7 +68,8 @@ h1 {
 .profile-pic {
     width: 400px !important;
     height: 400px !important;
-    border-radius: 20px !important;
+    border-radius: 50% !important;  /* makes it a circle */
+    object-fit: cover !important;   /* keeps face centered */
 }
 
 
