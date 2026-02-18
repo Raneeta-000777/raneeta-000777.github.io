@@ -62,5 +62,13 @@ h1 {
     object-fit: cover;
     display: block;
     margin: 0 auto 25px auto;
+
 }
+
+.profile-pic {
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 20px !important;
+}
+
 
