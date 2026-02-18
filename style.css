@@ -56,11 +56,11 @@ h1 {
 /* Profile picture */
 
 .profile-pic {
-    width: 200px;              /* Large size */
-    height: 200px;
-    border-radius: 50%;        /* keep it circular */
-    object-fit: cover;         /* crop perfectly */
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
     display: block;
-    margin: 0 auto 25px auto;  /* center it */
+    margin: 0 auto 25px auto;
 }
 
