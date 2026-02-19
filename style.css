@@ -7,21 +7,17 @@ body {
     background-size: cover;
 }
 
-/* Glassmorphism panel */
-.panel {
-    max-width: 780px;
-    margin: 60px auto;
-    padding: 35px 40px;
+/* Small blurred box behind text */
+.text-box {
+    max-width: 650px;
+    margin: 20px auto;
+    padding: 18px 22px;
 
-    /* Elegant translucent box */
-    background: rgba(0, 0, 0, 0.28);   /* very soft dark veil */
-    border: 1px solid rgba(255, 255, 255, 0.35);  /* elegant white border */
-    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 15px;
 
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35);  /* subtle depth */
-    backdrop-filter: blur(4px);   /* light blur for readability */
-
-    text-align: center;
+    backdrop-filter: blur(6px);
 }
 
 
@@ -62,20 +58,17 @@ h1 {
 /* Profile picture */
 
 .profile-pic {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto 25px auto;
-
-}
-
-.profile-pic {
     width: 400px !important;
     height: 400px !important;
-    border-radius: 50% !important;  /* makes it a circle */
-    object-fit: cover !important;   /* keeps face centered */
+    border-radius: 50% !important;
+    object-fit: cover !important;
+    display: block;
+    margin: 0 auto 25px auto;
 }
+
+
+
+
+
 
 
